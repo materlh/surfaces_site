@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link  rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <head>
+    <title>SURFACES</title>
+  </head>
+
+  <body>
+
+<header>
+
+
+  <nav class="navbar">
+
+    <div class="right">
+
+    <div class="switch">
+     <img  onclick="myFunction()" src="images/logo.png">
+    </div>
+
+
+  </div>
+
+
+
+
+
+</nav>
+
+</header>
+
+
+
+<div id="CONTACT">
+
+
+
+<div class="SLIDESHOW">
+
+<div class="container">
+
+  <div class="mySlides">
+
+<div class="images">
+ <img src="images/Théo.png"/>
+</div>
+ <div class="paragraphe">
+  <h1 class="nom">Théo Mathé</h1>
+  <p class="txt"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur arcu a facilisis placerat.
+    Nunc rutrum justo mi, nec fringilla tellus bibendum ac. Morbi ac convallis magna. Integer ullamcorper
+    dignissim quam, ac vestibulum dui consectetur quis. Curabitur pulvinar metus aliquet scelerisque varius. </p>
+</div>
+
+
+  </div>
+
+  <div class="mySlides">
+
+<div class="images">
+ <img src="images/Salomé.png"/>
+</div>
+ <div class="paragraphe">
+  <h1 class="nom">Salomé Schlappi</h1>
+  <p class="txt"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur arcu a facilisis placerat.
+    Nunc rutrum justo mi, nec fringilla tellus bibendum ac. Morbi ac convallis magna. Integer ullamcorper
+    dignissim quam, ac vestibulum dui consectetur quis. Curabitur pulvinar metus aliquet scelerisque varius. </p>
+</div>
+
+
+  </div>
+
+
+  <div class="mySlides">
+
+<div class="images">
+ <img src="images/Céline.png"/>
+</div>
+ <div class="paragraphe">
+  <h1 class="nom">Céline Gutmann</h1>
+  <p class="txt"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur arcu a facilisis placerat.
+    Nunc rutrum justo mi, nec fringilla tellus bibendum ac. Morbi ac convallis magna. Integer ullamcorper
+    dignissim quam, ac vestibulum dui consectetur quis. Curabitur pulvinar metus aliquet scelerisque varius. </p>
+</div>
+
+  </div>
+
+<div class="mySlides">
+
+<div class="images">
+<img src="images/Xavier.png"/>
+</div>
+<div class="paragraphe">
+<h1 class="nom">Xavier Grandguillot</h1>
+<p class="txt"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur arcu a facilisis placerat.
+  Nunc rutrum justo mi, nec fringilla tellus bibendum ac. Morbi ac convallis magna. Integer ullamcorper
+  dignissim quam, ac vestibulum dui consectetur quis. Curabitur pulvinar metus aliquet scelerisque varius. </p>
+</div>
+
+
+</div>
+
+
+ </div>
+
+
+  </div>
+
+
+
+
+
+<div class="QUOI">
+  <h1> QU'EST CE QU'ON FAIT ? </h1>
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur arcu a facilisis placerat.
+    Nunc rutrum justo mi, nec fringilla tellus bibendum ac. Morbi ac convallis magna. Integer ullamcorper
+    dignissim quam, ac vestibulum dui consectetur quis. Curabitur pulvinar metus aliquet scelerisque varius.
+    Duis egestas vel ante in venenatis. Duis dictum est leo, in semper metus consectetur quis. <p>
+</div>
+
+<div class="COMMENT">
+  <h1> COMMENT NOUS CONTACTER ? </h1>
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur arcu a facilisis placerat.
+    Nunc rutrum justo mi, nec fringilla tellus bibendum ac. Morbi ac convallis magna. Integer ullamcorper
+    dignissim quam, ac vestibulum dui consectetur quis. Curabitur pulvinar metus aliquet scelerisque varius.
+    Duis egestas vel ante in venenatis. Duis dictum est leo, in semper metus consectetur quis. <p>
+</div>
+
+</div>
+
+
+
+</div>
+
+<div id="SURFACES">
+
+  <video onclick="myFunction()" class="intro" autoplay muted loop>
+    <source src="images/test_intro.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+
+  </div>
+
+</div>
+
+<script>
+
+//SCRIPT SLIDESHOW
+
+//var slideIndex = 1;
+//showDivs(slideIndex);
+
+//function plusDivs(n) {
+  //showDivs(slideIndex += n);
+//}
+
+//function showDivs(n) {
+//  var i;
+//  var x = document.getElementsByClassName("mySlides");
+//  if (n > x.length) {slideIndex = 1}
+//  if (n < 1) {slideIndex = x.length}
+//  for (i = 0; i < x.length; i++) {
+//    x[i].style.display = "none";
+//  }
+//  x[slideIndex-1].style.display = "block";
+//}
+
+ //SCRIPT BOUTON
+
+function myFunction() {
+  var x = document.getElementById("SURFACES");
+  if (x.style.display === "none") {
+    x.style.display = "grid";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("CONTACT");
+  if (x.style.display === "grid") {
+    x.style.display = "none";
+} else {
+  x.style.display = "grid";
+}
+
+}
+
+
+
+</script>
+
+
+
+  </body>
+</html>
