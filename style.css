@@ -1,7 +1,5 @@
 
 
-
-
 .switch {
 
   position: relative;
@@ -55,6 +53,8 @@ animation: fadeIn 2s;
 
 }
 
+
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -89,11 +89,7 @@ grid-template-columns: repeat(7, 1fr);
 grid-template-rows: repeat(5, 1fr);
 grid-column-gap: 20px;
 grid-row-gap: 20px;
-animation: fadeIn 1s;
-  -webkit-animation: fadeIn 1s;
-  -moz-animation: fadeIn 1s;
-  -o-animation: fadeIn 1s;
-  -ms-animation: fadeIn 1s;
+
 
   }
 
@@ -111,13 +107,13 @@ animation: fadeIn 1s;
 
 .QUOI {
 
-  padding: 50px;
+  padding: 100px;
   margin-top: 70px;
 }
 
 .COMMENT {
 
-padding: 50px;
+padding: 100px;
 
 }
 
@@ -126,19 +122,19 @@ padding: 50px;
 
 align-items: center;
 
+
 }
 
 img{
 
-width: 60%;
+width: 80%;
 
 }
 
 
 h1 {
 
-margin: 25px;
-font-size: 50px;
+font-size: 100px;
 font-family: "itc-avant-garde-gothic-pro", sans-serif;
 font-weight: 700;
 font-style: normal;
@@ -148,29 +144,31 @@ font-style: normal;
 
 p {
 
-font-size: 25px;
+font-size: 50px;
 font-family: "itc-avant-garde-gothic-pro", sans-serif;
 font-weight: 300;
 font-style: normal;
+
 
 }
 
 .container {
 
-display: flex;
-flex-wrap: nowrap;
-justify-content: space-around;
-
+display: grid;
+grid-template-columns: 1fr 1fr;
+flex-direction: row-reverse;
 text-align: center;
-padding: 100px;
-margin-top: 50px;
+padding-left: 50px;
+padding-right: 50px;
+margin-top: 20px;
 
 
 }
 
 .nom {
 
-  font-size: 25px;
+  font-size: 70px;
+  padding-top: 10px;
   font-family: "itc-avant-garde-gothic-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -179,8 +177,9 @@ margin-top: 50px;
 
 .txt {
 
-  font-size: 15px;
-
+  font-size: 35px;
+padding: 25px;
+padding-top: 0px; 
   font-family: "itc-avant-garde-gothic-pro", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -190,15 +189,42 @@ margin-top: 50px;
 
 .mySlides {
 
-flex: 1 1 0;
 padding: 25px;
-flex-basis: 100%;
-width: 0;
 
+}
+
+.paragraphe {
 
 
 }
 
+.mail {
+
+  margin: 25px;
+  font-size: 50px;
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding: 50px;
+  color: black;
+
+}
+
+.insta {
+
+padding: 50px;
+width: 25%;
+
+}
+
+.réseaux {
+
+display: flex;
+align-items:center;
+justify-content: center;
+
+
+}
 
 
 @media screen and (max-width:1000px) {
@@ -206,13 +232,21 @@ width: 0;
 
 .container {
 
+display: flex;
  flex-direction: column;
  padding: 25px;
- margin: auto;
+ margin-bottom: 50px;
+
 
 }
 
 p {
+
+font-size: calc(5px + 3.3vw);
+
+}
+
+.mail {
 
 font-size: calc(5px + 3.3vw);
 
@@ -224,27 +258,27 @@ h1 {
 
 .txt {
 
-font-size: calc(5px + 2vw);
+font-size: calc(15px + 2vw);
 margin: auto;
 
 }
 
 .nom {
 
-font-size: calc(20px + 3.3vw);
+font-size: calc(30px + 3.3vw);
 
 }
 
 
 .QUOI {
 
-padding: 10px;
+padding: 25px;
 
 }
 
 .COMMENT {
 
-padding: 10px;
+padding: 25px;
 
 }
 
@@ -253,7 +287,6 @@ padding: 10px;
 
 padding: 25px;
 flex-basis: 100%;
-width: 100%;
 
 
 }
