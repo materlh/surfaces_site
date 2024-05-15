@@ -139,7 +139,9 @@ h1 {
 
 margin: 25px;
 font-size: 50px;
-font-family: "Roboto", monospace, bold;
+font-family: "itc-avant-garde-gothic-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
 
 }
 
@@ -147,17 +149,18 @@ font-family: "Roboto", monospace, bold;
 p {
 
 font-size: 25px;
-
-font-family: "Roboto", monospace, normal;
+font-family: "itc-avant-garde-gothic-pro", sans-serif;
+font-weight: 300;
+font-style: normal;
 
 }
 
 .container {
 
 display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+flex-wrap: nowrap;
+justify-content: space-around;
+
 text-align: center;
 padding: 100px;
 margin-top: 50px;
@@ -167,8 +170,10 @@ margin-top: 50px;
 
 .nom {
 
-  font-size: 35px;
-  font-family: "Roboto", monospace, bold;
+  font-size: 30px;
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 
 }
 
@@ -176,14 +181,21 @@ margin-top: 50px;
 
   font-size: 15px;
 
-  font-family: "Roboto", monospace, normal;
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   text-align: left;
 
 }
 
 .mySlides {
 
+flex: 1 1 0;
 padding: 25px;
+flex-basis: 100%;
+width: 0;
+
+
 
 }
 
@@ -233,6 +245,16 @@ padding: 10px;
 .COMMENT {
 
 padding: 10px;
+
+}
+
+.mySlides {
+
+
+padding: 25px;
+flex-basis: 100%;
+width: 100%;
+
 
 }
 
