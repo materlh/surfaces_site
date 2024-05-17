@@ -267,7 +267,7 @@ padding-left: 32px;
 display: flex;
  flex-direction: column;
  padding: 0px;
- margin: auto;
+ margin-top: 25px;
 
 
 }
@@ -276,8 +276,8 @@ display: flex;
 p {
 
 margin: 0px;
-font-size: calc(25px + 4vw);
-
+font-size: calc(20px + 4vw);
+  hyphens: auto;
 }
 
 .mail {
@@ -294,6 +294,8 @@ h1 {
 
 font-size: calc(10px + 2vw);
 margin: auto;
+padding-left: 15px;
+
 
 }
 
@@ -306,14 +308,15 @@ width: 50%;
 .nom {
 
 font-size: calc(30px + 3.3vw);
-
+margin: auto;
+padding: 15px;
 }
 
 
 .QUOI {
 
-padding-left: 25px;
-padding-top: 5px; 
+padding-left: 15px;
+padding-top: 5px;
 margin: auto;
 
 }
@@ -389,5 +392,15 @@ h2 {
 padding: 0px;
 
 }
+
+.navbar {
+
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding-left: 15px;
+  padding-top: 15px;
+}
+
 
 }
