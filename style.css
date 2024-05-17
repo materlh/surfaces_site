@@ -3,8 +3,12 @@
 .switch {
 
   position: relative;
-  width: 200px;
 
+}
+
+img {
+
+  width: 400px;
 
 }
 
@@ -19,8 +23,8 @@ opacity: 50%;
   display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px;
-
+padding-left: 32px;
+  padding-top: 32px;
 }
 
 .right {
@@ -106,10 +110,10 @@ grid-row-gap: 20px;
 
 
 .QUOI {
-padding: 75px;
+
 position: relative;
   padding-left: 32px;
-  margin-top: 70px;
+
 }
 
 .QUI {
@@ -131,12 +135,6 @@ padding: 75px;
 
 align-items: center;
 
-
-}
-
-img{
-
-width: 80%;
 
 }
 
@@ -162,11 +160,12 @@ h2 {
 
 p {
 
-font-size: 50px;
+font-size: 100px;
 font-family: "itc-avant-garde-gothic-pro", sans-serif;
 font-weight: 300;
 font-style: normal;
-
+margin: auto;
+margin-top: 15px;
 
 }
 
@@ -176,7 +175,6 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 flex-direction: row-reverse;
 text-align: center;
-
 margin-top: 20px;
 
 
@@ -268,15 +266,17 @@ padding-left: 32px;
 
 display: flex;
  flex-direction: column;
- padding: 25px;
- margin-bottom: 50px;
+ padding: 0px;
+ margin: auto;
 
 
 }
 
+
 p {
 
-font-size: calc(5px + 3.3vw);
+margin: 0px;
+font-size: calc(25px + 4vw);
 
 }
 
@@ -287,13 +287,19 @@ font-size: calc(5px + 3.3vw);
 }
 
 h1 {
-  font-size: calc(15px + 3.3vw);
+  font-size: calc(20px + 3.3vw);
 }
 
 .txt {
 
-font-size: calc(15px + 2vw);
+font-size: calc(10px + 2vw);
 margin: auto;
+
+}
+
+img {
+
+width: 50%;
 
 }
 
@@ -306,7 +312,9 @@ font-size: calc(30px + 3.3vw);
 
 .QUOI {
 
-padding: 25px;
+padding-left: 25px;
+padding-top: 5px; 
+margin: auto;
 
 }
 
@@ -327,9 +335,58 @@ padding: 25px;
 .mySlides {
 
 
-padding: 25px;
+padding: 0px;
 flex-basis: 100%;
 
+
+}
+
+.mail {
+
+
+  font-size: calc(15px + 2vw);
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding: 0px;
+  color: black;
+
+}
+
+.insta {
+
+
+font-size: calc(15px + 2vw);
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    color: black;
+    padding: 0px;
+
+}
+
+.adresse {
+
+
+font-size: calc(15px + 2vw);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+      color: black;
+      padding: 0px;
+
+}
+
+.réseaux {
+
+padding: 0px;
+
+}
+
+h2 {
+
+  font-size: calc(15px + 3.3vw);
+padding: 0px;
 
 }
 
