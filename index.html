@@ -5,6 +5,7 @@
 
   <head>
     <title>SURFACES</title>
+     <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
     <link rel="stylesheet" href="https://use.typekit.net/mry0wqy.css">
   </head>
 
@@ -32,7 +33,9 @@
 
 </header>
 
-
+<div class="preloader">
+  <div class="preloader_inner">100%</div>
+</div>
 
 <div id="CONTACT">
 
@@ -131,7 +134,7 @@ Rockeur à houppette, Harrington sur le dos, il est l’activiste du collectif
 
 </div>
 
-<div id="SURFACES">
+<div class="SURFACES" id="SURFACES">
 
   <video onclick="myFunction()" class="intro" autoplay muted playsinline loop>
     <source src="images/test_intro.mp4" type="video/mp4">
@@ -146,6 +149,29 @@ Rockeur à houppette, Harrington sur le dos, il est l’activiste du collectif
 
 <script>
 
+loader();
+
+function loader(_success) {
+    var obj = document.querySelector('.preloader'),
+    inner = document.querySelector('.preloader_inner'),
+    page = document.querySelector('.SURFACES');
+    obj.classList.add('show');
+    page.classList.remove('show');
+    var w = 0,
+        t = setInterval(function() {
+            w = w + 1;
+            inner.textContent = w+'%';
+            if (w === 100){
+                obj.classList.remove('show');
+                page.classList.add('show');
+                clearInterval(t);
+                w = 0;
+                if (_success){
+                    return _success();
+                }
+            }
+        }, 20);
+}
 
 
 var mobilevideo = document.getElementsByTagName("SURFACES")[0];
