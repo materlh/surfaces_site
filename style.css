@@ -81,7 +81,7 @@ position: fixed;
   font-style: normal;
   position: relative;
     padding-left: 32px;
-font-size: 70px;
+font-size: 60px;
 }
 
 .omelette-frites {
@@ -105,7 +105,8 @@ font-weight: 700;
 
 .QUOI {
 
-padding: 100px;
+padding-left: 32px;
+margin-top: 100px;
 position: relative;
 font-size: 50px;
 font-weight: 300;
@@ -192,6 +193,7 @@ padding-top: 0px;
   font-weight: 300;
   font-style: normal;
   text-align: left;
+  line-height: 1.2;
 
 }
 
@@ -269,7 +271,7 @@ display: flex;
 p {
 
 margin: 0px;
-font-size: calc(20px + 4vw);
+font-size: calc(10px + 4vw);
   hyphens: auto;
 }
 
@@ -288,6 +290,7 @@ h1 {
 font-size: calc(10px + 2vw);
 margin: auto;
 padding-left: 15px;
+line-height: 1.5;
 
 
 }
@@ -310,7 +313,7 @@ padding: 15px;
 
 padding-left: 15px;
 padding-top: 5px;
-margin: auto;
+
 
 }
 
@@ -397,11 +400,20 @@ padding-left: 15px;
 
 .QUOI {
 
-  padding: 50px;
+  padding: 32px;
   position: relative;
   font-weight: 300;
   }
-  
+
+
+  .DEBUT {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+      padding-left: 32px;
+font-size: calc(20px + 4vw);
+  }
 
 
 }
