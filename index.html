@@ -7,41 +7,57 @@
     <title>SURFACES</title>
      <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
     <link rel="stylesheet" href="https://use.typekit.net/mry0wqy.css">
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
 
   <body>
 
 <header>
 
-
-  <nav class="navbar">
-
-    <div class="right">
-
-    <div class="switch">
-     <img  onclick="myFunction()" src="images/logo.png">
-    </div>
+</header>
 
 
+<div id="content">
+  <div class="SURFACES">
+
+    <video onclick="myFunction()" class="intro" autoplay muted playsinline loop>
+      <source src="images/test_intro.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
   </div>
 
-
-
-
-
-</nav>
-
-</header>
+</div>
 
 <div class="preloader">
   <div class="preloader_inner">100%</div>
 </div>
 
+
 <div id="CONTACT">
+
+
+  <div class="DEBUT">
+    <!--<h1> QU'EST CE QU'ON FAIT ? </h1>-->
+    <p> graphismes d’exception </br>
+expositions mémorables </br>
+éditions bien senties </br>
+motion design fluide </br>
+illustrations trop jolies </br></p>
+<p class="omelette-frites">
+omelette-frites
+</p>
+<p class="texte_brillants">
+textes brillants</br>
+</p>
+
+  </div>
+
 
   <div class="QUOI">
     <!--<h1> QU'EST CE QU'ON FAIT ? </h1>-->
-    <p> développe des solutions dans les domaines du design graphique et de la création littéraire.
+    <p class="titre"> SURFACES. </p>
+
+      <p>développe des solutions dans les domaines du design graphique et de la création littéraire.
       Il explore des problématiques qui ont trait à la direction artistique, au design éditorial, au volume communicant,
       à l’image imprimée, aux pratiques numériques et à la création de contenus rédactionnels.
    <p>
@@ -75,8 +91,8 @@
 </div>
  <div class="paragraphe">
   <h1 class="nom">Salomé Schlappi</h1>
-  <p class="txt"> Critique d’art, commissaire d’exposition et stakhanoviste, elle crée des contenus à destination
-    de revues et de podcasts dédiés à la constellation des artistes femmes.  </p>
+  <p class="txt"> Historienne de l’art, critique d’art et commissaire d’exposition,
+    contrairement à son bureau, son cerveau est bien organisé. </p>
 </div>
 
 
@@ -90,8 +106,8 @@
 </div>
  <div class="paragraphe">
   <h1 class="nom">Céline Gutmann</h1>
-  <p class="txt">Directrice artistique et rédactrice, son œil et sa plume mettent d'équerre la colonne vertébrale des projets.
-    Iconographe compulsive, elle part du principe que si elle se fait rire, c’est qu’elle est drôle. </p>
+  <p class="txt">Directrice artistique, rédactrice et iconographe compulsive,
+    elle part du principe que si elle se fait rire, c’est qu’elle est drôle. </p>
 </div>
 
   </div>
@@ -134,20 +150,16 @@ Rockeur à houppette, Harrington sur le dos, il est l’activiste du collectif
 
 </div>
 
-<div class="SURFACES" id="SURFACES">
-
-  <video onclick="myFunction()" class="intro" autoplay muted playsinline loop>
-    <source src="images/test_intro.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-  </video>
-
-
-  </div>
-
 </div>
 
 
 <script>
+
+$(window).scroll(function () {
+        let content = $("#content");
+        let scrollTop = $(window).scrollTop();
+        content.css("opacity", 1 - scrollTop / 1000);
+     });
 
 loader();
 
@@ -201,24 +213,6 @@ mobilevideo.setAttribute("muted", "");
 //}
 
  //SCRIPT BOUTON
-
-function myFunction() {
-  var x = document.getElementById("SURFACES");
-  if (x.style.display === "none") {
-    x.style.display = "grid";
-  } else {
-    x.style.display = "none";
-  }
-
-  var x = document.getElementById("CONTACT");
-  if (x.style.display === "grid") {
-    x.style.display = "none";
-} else {
-  x.style.display = "grid";
-}
-
-}
-
 
 
 </script>
