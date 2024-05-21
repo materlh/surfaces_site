@@ -71,7 +71,7 @@ position: fixed;
   height: 100%;
   opacity: 1;
   object-fit: cover;
-  float: inherit;
+
 
 }
 
@@ -413,6 +413,14 @@ padding-left: 15px;
     position: relative;
       padding-left: 32px;
 font-size: calc(20px + 4vw);
+  }
+
+
+  #CONTACT {
+
+  position: relative;
+  margin-top: 700px;
+
   }
 
 
