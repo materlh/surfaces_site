@@ -163,6 +163,10 @@ $(window).scroll(function () {
 
 loader();
 
+$(window).on('preloader', function () {
+  $('#preloader_inner').hide();
+})
+
 function loader(_success) {
     var obj = document.querySelector('.preloader'),
     inner = document.querySelector('.preloader_inner'),
