@@ -3,7 +3,7 @@
 #CONTACT {
 
 position: relative;
-margin-top: 700px;
+margin-top: 900px;
 
 }
 
@@ -114,8 +114,11 @@ margin-top: 75px;
 
 .QUI {
 
+display: flex;
+justify-content: center;
 position: relative;
-  padding-left: 32px;
+padding-top: 100px;
+
 
 }
 
@@ -137,10 +140,11 @@ align-items: center;
 
 h1 {
 
-font-size: 120px;
+font-size: 80px;
 font-family: "itc-avant-garde-gothic-pro", sans-serif;
 font-weight: 700;
 font-style: normal;
+margin: 0;
 
 }
 
@@ -169,7 +173,7 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 flex-direction: row-reverse;
 text-align: center;
-margin-top: 20px;
+
 
 
 }
@@ -262,7 +266,7 @@ padding-left: 32px;
 display: flex;
  flex-direction: column;
  padding: 0px;
- margin-top: 25px;
+ margin: 0px;
 
 
 }
@@ -325,7 +329,6 @@ padding: 25px;
 
 .QUI {
 
-  padding: 25px;
 
 
 }
@@ -420,7 +423,7 @@ font-size: calc(20px + 4vw);
   #CONTACT {
 
   position: relative;
-  margin-top: 700px;
+  margin-top: 900px;
 
   }
 
